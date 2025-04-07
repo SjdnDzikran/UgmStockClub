@@ -7,15 +7,25 @@
       "main": "src/UgmStockClub_backend/main.mo",
       "type": "motoko"
     },
-    "UgmStockClub_frontend": {
+    "frontend_public": {
       "dependencies": [
         "UgmStockClub_backend"
       ],
       "source": [
-        "src/UgmStockClub_frontend/dist"
+        "src/frontend_public/dist"
       ],
       "type": "assets",
-      "workspace": "UgmStockClub_frontend"
+      "workspace": "frontend_public"
+    },
+    "frontend_cms": {
+      "dependencies": [
+        "UgmStockClub_backend"
+      ],
+      "source": [
+        "src/frontend_cms/dist"
+      ],
+      "type": "assets",
+      "workspace": "frontend_cms"
     },
     "internet_identity": {
       "candid": "https://github.com/dfinity/internet-identity/releases/latest/download/internet_identity.did",
