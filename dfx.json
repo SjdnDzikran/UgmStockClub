@@ -15,7 +15,7 @@
         "src/frontend_public/dist"
       ],
       "type": "assets",
-      "workspace": "frontend_public"
+      "workspace": "ugmstockclub-public"
     },
     "frontend_cms": {
       "dependencies": [
@@ -25,7 +25,7 @@
         "src/frontend_cms/dist"
       ],
       "type": "assets",
-      "workspace": "frontend_cms"
+      "workspace": "ugmstockclub-cms"
     },
     "internet_identity": {
       "candid": "https://github.com/dfinity/internet-identity/releases/latest/download/internet_identity.did",
